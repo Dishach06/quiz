@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Quiz Master - Test Your Knowledge</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <!-- Header -->
+      <div class="quiz-header">
+        <h1>Quiz Master</h1>
+        <div class="score-tracker">
+          <span class="current-score">Score: <span id="current-score">0</span></span>
+          <span class="question-counter">
+            <span id="question-number">1</span> / <span id="total-questions">10</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+
+      <!-- Main Quiz Container -->
+      <div id="quiz-content" class="quiz-content">
+        <!-- Question Section -->
+        <div id="question-container" class="question-container">
+          <h2 id="question" class="question-text">Question</h2>
+          <div id="answer-buttons" class="answer-buttons"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="button-group">
+          <button id="next-btn" class="btn btn-next hide">Next Question</button>
+        </div>
+      </div>
+
+      <!-- Results Screen -->
+      <div id="result-screen" class="result-screen hide">
+        <div class="result-content">
+          <div class="result-icon" id="result-icon"></div>
+          <h2 id="result-title">Quiz Complete!</h2>
+          <div class="result-score">
+            <p>Your Score</p>
+            <div class="final-score">
+              <span id="final-score">0</span> / <span id="final-total">10</span>
+            </div>
+          </div>
+          <p id="result-message" class="result-message"></p>
+          
+          <!-- Category Breakdown -->
+          <div id="category-breakdown" class="category-breakdown"></div>
+          
+          <!-- Feedback Tips -->
+          <div id="feedback-tips" class="feedback-tips">
+            <h3>📝 Feedback & Tips</h3>
+            <p id="tips-content"></p>
+          </div>
+          
+          <button id="restart-btn" class="btn btn-restart">Take Quiz Again</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
