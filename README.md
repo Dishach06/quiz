@@ -43,21 +43,6 @@ Quiz Master emphasizes not just testing knowledge, but also learning through fee
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - No additional software or server required
 
-### Setup
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Dishach06/quiz-application.git
-   cd quiz-master
-   ```
-
-2. **Open in Browser**
-   - Simply open `index.html` in your web browser
-   - No build process or server setup required
-
-### Alternative: Direct Download
-- Download the ZIP file from GitHub
-- Extract the contents
-- Open `index.html` in your browser
 
 ## Usage
 
@@ -85,19 +70,19 @@ Quiz Master emphasizes not just testing knowledge, but also learning through fee
 ## Screenshots
 
 ### Quiz Interface
-![Quiz Interface](screenshots/quiz-interface.png)
+![Quiz Interface](quiz-interface.png)
 *The main quiz interface showing a question with multiple choice answers and progress tracking.*
 
 ### Results Screen
-![Results Screen](screenshots/-scrresultseen.png)
+![Results Screen](-scrresultseen.png)
 *Comprehensive results display with score breakdown and personalized feedback.*
 
 ### Category Breakdown
-![Category Breakdown](screenshots/category-breakdown.png)
+![Category Breakdown](category-breakdown.png)
 *Detailed performance analysis by subject category.*
 
 ### Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](mobile-view.png)
 *Responsive design optimized for mobile devices.*
 
 ## Project Structure
